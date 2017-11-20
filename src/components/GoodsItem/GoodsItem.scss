@@ -1,0 +1,26 @@
+$screen-width: 18.75rem;
+@mixin setTagA($width) {
+  width: $width;
+  img{
+    width: $width;
+    height: $width;
+  }
+  .goods-name{
+    color: #555;
+    font-size: 0.7rem;
+    margin-top: 0.2rem;
+  }
+}
+.sizeTypeImg-2 {
+  $width: ($screen-width - 1.5) / 2;
+  @include setTagA($width)
+}
+.sizeTypeImg-3 {
+  $width: ($screen-width - 2) / 3;
+  @include setTagA($width)
+}
+
+a{
+
+}
+

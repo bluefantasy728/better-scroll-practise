@@ -1,0 +1,57 @@
+$screenWidth: 18.75rem;
+$liMargin: ($screenWidth - 8.625 * 2) / 3;
+html{
+  height: 100%;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: #eee;
+  color: #555;
+  font-size: 0.65rem;
+}
+header{
+  height: 2rem;
+  background: deeppink;
+  flex-shrink: 0;
+}
+#main{
+  flex: 1;
+  overflow: hidden;
+  .content{
+    display: flex;
+    flex-wrap: wrap;
+    transform: translateY(10px)
+  }
+  li:nth-child(odd) {
+    margin: .1rem 0 0 $liMargin;
+  }
+  li:nth-child(even) {
+    margin: .1rem $liMargin 0;
+  }
+  .temp{
+    background: rgb(78, 47, 255);
+    width: 40%;
+    height: 7rem;
+    line-height: 7rem;
+    font-size: 3rem;
+    text-align: center;
+  }
+}
+.more-info{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 1.5rem;
+  i{
+    display: block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background: url('./images/loading1.gif') center center / cover no-repeat;
+  }
+  span{
+    height: 1.5rem;
+    line-height: 1.5rem;
+  }
+}

@@ -1,0 +1,45 @@
+html, body, div, span,
+h1, h2, h3, h4, h5, h6, p,
+del, dfn, em, img, ins, kbd, q, samp,
+b, i,
+dl, dt, dd, ol, ul, li,
+form, label,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, nav, section{
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    font-weight: normal;
+    font-style: normal;
+    vertical-align:baseline;
+    background:transparent;
+    list-style: none;
+}
+body{
+  font-family: 'microsoft-yahei'
+}
+a {
+  display: block;
+  margin:0;
+  padding:0;
+  border:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}
+a, a:link, a:visited, a:hover, a:active{
+  text-decoration:none;
+}
+img{
+  display: block;
+}
+
+.clearfix:after {
+  content: " ";
+  display: block;
+  clear: both;
+  height: 0;
+}

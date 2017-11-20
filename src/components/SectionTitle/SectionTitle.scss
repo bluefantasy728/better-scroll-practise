@@ -1,0 +1,25 @@
+.title-section{
+  border-top: 1px solid #e2e2e2;
+  border-bottom: 1px solid #e2e2e2;
+  font-size: 0.6rem;
+  background-color: #eeeeee;
+  position: relative;
+  height: 2rem;
+  width: 100%;
+
+  h3{
+    text-align: center;
+    height: 100%;
+    line-height: 2rem;
+    color: #8f8e8e;
+  }
+
+  a{
+    height: 1rem;
+    line-height: 1rem;
+    position: absolute;
+    right: 1rem;
+    top: 0.5rem;
+    color: #8f8e8e;
+  }
+}
